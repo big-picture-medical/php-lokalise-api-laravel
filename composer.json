@@ -1,8 +1,12 @@
 {
     "name": "ruben/php-lokalise-api-laravel",
     "description": "Laravel wrapper for the php-lokalise-api package",
-    "type": "library",
     "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "lokalise/php-lokalise-api": "^4.0",
+        "illuminate/support": "^8.61"
+    },
     "authors": [
         {
             "name": "Ruben Funai",
@@ -14,19 +18,15 @@
             "ARG2009\\Lokalise\\": "src/"
         }
     },
+    "config": {
+        "sort-packages": true
+    },
     "extra": {
         "laravel": {
             "providers": [
                 "ARG2009\\Lokalise\\LokaliseServiceProvider"
             ]
         }
-    },
-    "require": {
-        "php": "^8.0",
-        "lokalise/php-lokalise-api": "^4.0"
-    },
-    "require-dev": {
-        "illuminate/support": "^8.61"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
