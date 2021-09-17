@@ -9,7 +9,23 @@
             "email": "ruben.funai@gmail.com"
         }
     ],
-    "require-dev": {
+    "autoload": {
+        "psr-4": {
+            "ARG2009\\Lokalise\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ARG2009\\Lokalise\\LokaliseServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.0",
         "lokalise/php-lokalise-api": "^4.0"
+    },
+    "require-dev": {
+        "illuminate/support": "^8.61"
     }
 }
