@@ -27,5 +27,7 @@
     },
     "require-dev": {
         "illuminate/support": "^8.61"
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
