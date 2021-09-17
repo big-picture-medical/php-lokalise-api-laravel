@@ -1,0 +1,15 @@
+{
+    "name": "ruben/php-lokalise-api-laravel",
+    "description": "Laravel wrapper for the php-lokalise-api package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ruben Funai",
+            "email": "ruben.funai@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "lokalise/php-lokalise-api": "^4.0"
+    }
+}
