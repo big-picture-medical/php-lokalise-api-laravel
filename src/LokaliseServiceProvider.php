@@ -10,7 +10,7 @@ class LokaliseServiceProvider extends ServiceProvider
     public function register(): void
     {
         $this->app->bind(LokaliseApiClient::class, function ($app) {
-            return new LokaliseApiClient($app['config']['services.lokalise.key']);
+            return new LokaliseApiClient(env('LOKALISE_API_KEY'));
         });
     }
 }
