@@ -1,11 +1,11 @@
 {
-    "name": "ruben/php-lokalise-api-laravel",
+    "name": "arg2009/php-lokalise-api-laravel",
     "description": "Laravel wrapper for the php-lokalise-api package",
     "license": "MIT",
     "require": {
         "php": "^8.0",
         "lokalise/php-lokalise-api": "^4.0",
-        "illuminate/support": "^8.61"
+        "illuminate/support": "^8"
     },
     "authors": [
         {
