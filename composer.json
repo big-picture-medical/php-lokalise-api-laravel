@@ -4,8 +4,8 @@
     "license": "MIT",
     "require": {
         "php": "^8.0",
-        "lokalise/php-lokalise-api": "^4.0",
-        "illuminate/support": "^8"
+        "illuminate/support": "^9",
+        "lokalise/php-lokalise-api": "^4.0"
     },
     "authors": [
         {
